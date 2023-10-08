@@ -9,7 +9,7 @@ params:
   # Conference info
   Name: "Toronto Crypto Day"
   Description: "A full day of cryptography talks in the Toronto Area"
-  Date: "November 10 2023"
+  Date: "November 3 2023"
   # Price: "Only $100" # If your event is free, just comment this line
   Venue: "Sorry Studios"
   Address: "61 Elm Grove Ave"
