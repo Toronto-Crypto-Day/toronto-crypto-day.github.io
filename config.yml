@@ -55,58 +55,48 @@ params:
       logo: "/img/hashcloak_logo_colour-logo-text.png"
       url: "http://hashcloak.com"
 
-  # List of Partners
-  Partners:
-    - name: "Hugo"
-      logo: "/img/hugo.jpg"
-      url: "https://gohugo.io"
-    - name: "BrazilJS"
-      logo: "/img/partner.png"
-      url: "http://braziljs.org"
-
   # The entire schedule
   Schedule:
-    - name: "TBA"
-      time: "TBA"
-
     - name: "Mikerah Quintyne-Collins"
     #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Linux Foundation"
+      bio: "Mikerah Quintyne-Collins is an independent researcher and founder and CEO of HashCloak, a blockchain privacy R&D startup with a global team. Her research focuses on networking, validator privacy, and optimistic rollups. She organized Scaling Ethereum, a research workshop bringing together top Ethereum researchers to work on Ethereum’s most pressing scalability problems. Currently, she’s focused on privacy for blockchains, specifically mixers and mix networks for cryptocurrency transactions. Previously, she was part of the ChainSafe Systems team working on ETH2.0, namely the Lodestar Typescript client. She was awarded a Vitalik YOLO grant for her work on ETH2.0."
+      company: "HashCloak Inc"
       link:
         href: "http://twitter.com/badcryptobitch"
         text: "@badcryptobitch"
-    #   presentation:
-    #     title: "Digging into a Linux Kernel"
-    #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #     time: "10h00"
+      presentation:
+        title: "How to design a VM for MPC"
+        description: "Multiparty computation is a cryptographic primitive in which multiple parties compute over private inputs a public function. MPC has seen a increase in industrial usage, particularly as it pertains to securing cryptographic keys. In order to use MPC in other applications, there has been academic effort into designing frameworks which abstract away the details of building MPC enabled applications similar to those for zk-snarks such as Circom. In this talk, we will go over the design and architecture of two popular MPC frameworks, MP-SPDZ and SCALE-MAMBA. We will go into details about their VM design and what makes their VMs amenable to MPC computation"
+        time: "10h00"
 
     - name: "0xBankisan"
     #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Microsoft"
+      bio: "Spiro is a crypto founder building a private multiparty wallet on Ethereum. He has developed DeFi protocols, audit tooling, and is a hobbyist cryptographer. In the past, he worked as a software engineer in data, infra, and backend applications at Uber, Lazer, and other web companies."
+      company: "Independent"
       link:
         href: "http://twitter.com/0xbankisan"
         text: "@0xbankisan"
-    #   presentation:
-    #     title: "Introducing Windows 12"
-    #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #     time: "11h00"
+      presentation:
+        title: "Building zkShield: The hard parts of building consumer ZK"
+        description: "I'm going to cover a quick overview of ZKPs, how they are implemented in code (solidity), the limitations of zkECDSAs, and general browser proving and verifying for for consumer products."
+        time: "11h00"
 
-    # - name: "Lunch"
-    #   time: "12h00"
+    - name: "Lunch"
+      time: "12h00"
 
     - name: "Mohammad Jahanara"
     #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Delta Command"
+      bio: "Mo is a senior protocol researcher at Scroll Foundation. Prior to this role, he served as a research engineer at Quantstamp and as a blockchain developer at Aquanow. His research interests encompass protocol design, proof systems, and privacy-enhancing technologies"
+      company: "Scroll Foundation"
       link:
         href: "http://twitter.com/MMJahanara"
         text: "@MMJahanara"
-    #   presentation:
-    #     title: "How to kill a elephant with one finger"
-    #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #     time: "13h00"
+      presentation:
+        title: "Mempool Encryption via Multiparty Delay Encryption"
+        description: "Ethereum is a decentralized and permissionless network offering several attractive features. However, block generation is ephemerally centralized, and proposers in Ethereum can exploit the order of transactions to extract value. This phenomenon, known as maximal extractable value (MEV), not only disrupts the optimal functioning of different protocols but also undermines the stability of the underlying consensus mechanism.
+
+A prominent approach to alleviate MEV extraction is through mempool privacy, which involves keeping transaction content hidden before their execution in blocks. In this talk, we delve into the concept of mempool encryption, discussing proposed constructions and their limitations. The talk is based on joint work with Amirhossein Khajehpour, Hanzaleh Akbarinodehi, and Chen Feng"
+        time: "13h00"
 
     # - name: "Steve Jobs"
     #   photo: "/img/speaker.jpg"
