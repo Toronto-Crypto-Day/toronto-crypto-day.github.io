@@ -101,6 +101,60 @@
 <h3>TBA</h2>
 <ul class="speakers-list">
 
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    
+
+    <h3 class="speech-title">
+      
+      <span class="speech-time">10h00</span>
+      
+      <span>How to design a VM for MPC</span>
+    </h3>
+
+    <h3 class="speakers-name">Mikerah Quintyne-Collins
+      
+      <a href="http://twitter.com/badcryptobitch" target="_blank" title="@badcryptobitch"> @badcryptobitch </a>
+      
+    </h3>
+    <p class="speakers-bio">Mikerah Quintyne-Collins is an independent researcher and founder and CEO of HashCloak, a blockchain privacy R&amp;D startup with a global team. Her research focuses on networking, validator privacy, and optimistic rollups. She organized Scaling Ethereum, a research workshop bringing together top Ethereum researchers to work on Ethereum’s most pressing scalability problems. Currently, she’s focused on privacy for blockchains, specifically mixers and mix networks for cryptocurrency transactions. Previously, she was part of the ChainSafe Systems team working on ETH2.0, namely the Lodestar Typescript client. She was awarded a Vitalik YOLO grant for her work on ETH2.0.</p>
+  </li>
+
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    
+
+    <h3 class="speech-title">
+      
+      <span class="speech-time">11h00</span>
+      
+      <span>Building zkShield: The hard parts of building consumer ZK</span>
+    </h3>
+
+    <h3 class="speakers-name">0xBankisan
+      
+      <a href="http://twitter.com/0xbankisan" target="_blank" title="@0xbankisan"> @0xbankisan </a>
+      
+    </h3>
+    <p class="speakers-bio">Spiro is a crypto founder building a private multiparty wallet on Ethereum. He has developed DeFi protocols, audit tooling, and is a hobbyist cryptographer. In the past, he worked as a software engineer in data, infra, and backend applications at Uber, Lazer, and other web companies.</p>
+  </li>
+
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+    
+
+    <h3 class="speech-title">
+      
+      <span class="speech-time">13h00</span>
+      
+      <span>Mempool Encryption via Multiparty Delay Encryption</span>
+    </h3>
+
+    <h3 class="speakers-name">Mohammad Jahanara
+      
+      <a href="http://twitter.com/MMJahanara" target="_blank" title="@MMJahanara"> @MMJahanara </a>
+      
+    </h3>
+    <p class="speakers-bio">Mo is a senior protocol researcher at Scroll Foundation. Prior to this role, he served as a research engineer at Quantstamp and as a blockchain developer at Aquanow. His research interests encompass protocol design, proof systems, and privacy-enhancing technologies</p>
+  </li>
+
 </ul>
 
           </section>
@@ -108,8 +162,6 @@
           <section class="schedule" id="schedule">
             <h2 class="section-title">Schedule</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 <div class="schedule-tbl">
   <table>
     <thead>
@@ -122,34 +174,50 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     <tbody>
       
         
-          <tr class="schedule-other">
-            <td class="schedule-time">TBA</td>
-            <td class="schedule-slot">TBA</td>
-            <td class="schedule-description">-</td>
+          <tr>
+            <td class="schedule-time">10h00</td>
+            <td class="schedule-slot">
+            
+
+              How to design a VM for MPC
+              <span class="speakers-company">Mikerah Quintyne-Collins</span>
+            </td>
+            <td class="schedule-description">Multiparty computation is a cryptographic primitive in which multiple parties compute over private inputs a public function. MPC has seen a increase in industrial usage, particularly as it pertains to securing cryptographic keys. In order to use MPC in other applications, there has been academic effort into designing frameworks which abstract away the details of building MPC enabled applications similar to those for zk-snarks such as Circom. In this talk, we will go over the design and architecture of two popular MPC frameworks, MP-SPDZ and SCALE-MAMBA. We will go into details about their VM design and what makes their VMs amenable to MPC computation</td>
+          </tr>
+        
+      
+        
+          <tr>
+            <td class="schedule-time">11h00</td>
+            <td class="schedule-slot">
+            
+
+              Building zkShield: The hard parts of building consumer ZK
+              <span class="speakers-company">0xBankisan</span>
+            </td>
+            <td class="schedule-description">I&#39;m going to cover a quick overview of ZKPs, how they are implemented in code (solidity), the limitations of zkECDSAs, and general browser proving and verifying for for consumer products.</td>
           </tr>
         
       
         
           <tr class="schedule-other">
-            <td class="schedule-time"></td>
-            <td class="schedule-slot">Mikerah Quintyne-Collins</td>
+            <td class="schedule-time">12h00</td>
+            <td class="schedule-slot">Lunch</td>
             <td class="schedule-description">-</td>
           </tr>
         
       
         
-          <tr class="schedule-other">
-            <td class="schedule-time"></td>
-            <td class="schedule-slot">0xBankisan</td>
-            <td class="schedule-description">-</td>
-          </tr>
-        
-      
-        
-          <tr class="schedule-other">
-            <td class="schedule-time"></td>
-            <td class="schedule-slot">Mohammad Jahanara</td>
-            <td class="schedule-description">-</td>
+          <tr>
+            <td class="schedule-time">13h00</td>
+            <td class="schedule-slot">
+            
+
+              Mempool Encryption via Multiparty Delay Encryption
+              <span class="speakers-company">Mohammad Jahanara</span>
+            </td>
+            <td class="schedule-description">Ethereum is a decentralized and permissionless network offering several attractive features. However, block generation is ephemerally centralized, and proposers in Ethereum can exploit the order of transactions to extract value. This phenomenon, known as maximal extractable value (MEV), not only disrupts the optimal functioning of different protocols but also undermines the stability of the underlying consensus mechanism.
+A prominent approach to alleviate MEV extraction is through mempool privacy, which involves keeping transaction content hidden before their execution in blocks. In this talk, we delve into the concept of mempool encryption, discussing proposed constructions and their limitations. The talk is based on joint work with Amirhossein Khajehpour, Hanzaleh Akbarinodehi, and Chen Feng</td>
           </tr>
         
       
